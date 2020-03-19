@@ -1,6 +1,6 @@
-# docker-aws-organization-formation
+# docker-aws-org-formation
 
-![](https://github.com/craighurley/docker-aws-organization-formation/workflows/Build%20and%20Publish%20to%20Docker%20Hub/badge.svg)
+![](https://github.com/craighurley/docker-aws-org-formation/workflows/Build%20and%20Publish%20to%20Docker%20Hub/badge.svg)
 
 Run `aws-organization-formation` in a container.
 
@@ -9,15 +9,15 @@ Run `aws-organization-formation` in a container.
 ```sh
 # Set the AWS_PROFILE environment variable and pass it to the container
 AWS_PROFILE=example
-docker run --rm -it -v $HOME/.aws:/root/.aws -e AWS_PROFILE craighurley/aws-organization-formation
+docker run --rm -it -v $HOME/.aws:/root/.aws -e AWS_PROFILE craighurley/aws-org-formation
 ```
 
 Optional: create an alias for the container:
 
 ```sh
-alias aws='docker run --rm -it -v $HOME/.aws:/root/.aws -e AWS_PROFILE craighurley/aws-organization-formation'
+alias org-formation='docker run --rm -it -v $HOME/.aws:/root/.aws -e AWS_PROFILE craighurley/aws-org-formation'
 ```
 
 ## Links
 
-- <https://github.com/broamski/aws-mfa>
+- <https://github.com/OlafConijn/AwsOrganizationFormation>
