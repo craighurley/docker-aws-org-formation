@@ -1,6 +1,6 @@
 # docker-aws-org-formation
 
-![Build and Publish to Docker Hub](https://github.com/craighurley/docker-aws-org-formation/workflows/Build%20and%20Publish%20to%20Docker%20Hub/badge.svg)
+![build](https://github.com/craighurley/docker-aws-org-formation/workflows/build/badge.svg)
 
 Run `aws-organization-formation` in a container.
 
