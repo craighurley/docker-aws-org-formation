@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.5
+
+- Update: aws-organization-formation:0.9.5
+
 ## 0.9.5-beta.17
 
 - Update: aws-organization-formation:0.9.5-beta.17
