@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.6
+
+- Update: aws-organization-formation:0.9.6
+
 ## 0.9.5
 
 - Update: aws-organization-formation:0.9.5
