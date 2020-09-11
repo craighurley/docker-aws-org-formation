@@ -1,8 +1,13 @@
 # Changelog
 
+## 0.9.10
+
+- Update: org-formation-cli:0.9.10
+
 ## 0.9.7
 
-- Update: aws-organization-formation:0.9.7
+- Change: rename to org-formation-cli
+- Update: org-formation-cli:0.9.7
 
 ## 0.9.6
 
