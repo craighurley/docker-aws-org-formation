@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.11
+
+- Update: org-formation-cli:0.9.11
+- Use git tag as arg passed to docker build
+
 ## 0.9.10
 
 - Update: org-formation-cli:0.9.10
