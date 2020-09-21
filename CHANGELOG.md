@@ -3,7 +3,8 @@
 ## 0.9.11
 
 - Update: org-formation-cli:0.9.11
-- Use git tag as arg passed to docker build
+- Use git tag as arg passed to docker build.
+- Use node LTS.
 
 ## 0.9.10
 
