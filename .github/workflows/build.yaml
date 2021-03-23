@@ -17,6 +17,7 @@ jobs:
           # remove 'docker-' from the repo name
           echo "DOCKER_REPOSITORY=${LGITHUB_REPOSITORY//docker-/}" >> $GITHUB_ENV
           # get the tag and remove prefix
+          echo "RELEASE_VERSION=$(echo ${GITHUB_REF//refs\/tags\//})"
           echo "RELEASE_VERSION=$(echo ${GITHUB_REF//refs\/tags\//})" >> $GITHUB_ENV
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
